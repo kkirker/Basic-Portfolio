@@ -1,4 +1,30 @@
 body {
-    height: 100% ;
+    height: 1300px ;
     background-color: rgba(o, o, o, .05) ;
+
+}
+
+.container {
+    position: relative ;
+    background-image: url("../images/swirl_pattern.png");
+    height: 1000px;
+}
+
+.about {
+    position: absolute ;
+}
+
+.heading {
+    display: flex ;
+    flex-direction: row ;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.name {
+    flex: 1 ;
+}
+
+.boxes {
+    flex: 1;
 }
